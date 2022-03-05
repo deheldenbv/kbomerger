@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@fast-csv/parse": "^4.3.6",
-    "json-to-jsonl": "^1.1.0"
+    "json-to-jsonl": "^1.1.0",
+    "stream-csv-as-json": "^1.0.4"
   }
 }

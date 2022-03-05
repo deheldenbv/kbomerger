@@ -3,10 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   '@fast-csv/parse': ^4.3.6
   json-to-jsonl: ^1.1.0
+  stream-csv-as-json: ^1.0.4
 
 dependencies:
   '@fast-csv/parse': 4.3.6
   json-to-jsonl: 1.1.0
+  stream-csv-as-json: 1.0.4
 
 packages:
 
@@ -52,4 +54,20 @@ packages:
 
   /lodash.uniq/4.5.0:
     resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
+    dev: false
+
+  /stream-chain/2.2.5:
+    resolution: {integrity: sha512-1TJmBx6aSWqZ4tx7aTpBDXK0/e2hhcNSTV8+CbFJtDjbb+I1mZ8lHit0Grw9GRT+6JbIrrDd8esncgBi8aBXGA==}
+    dev: false
+
+  /stream-csv-as-json/1.0.4:
+    resolution: {integrity: sha512-6kEUuf7HSj6Bzv8T5/JW+0kRiJvC76qOixJi+6UvP+fYCN0cPoMgXA1RL6tFv041xobaymlmzQ4+DzfoVtBhqQ==}
+    dependencies:
+      stream-json: 1.7.4
+    dev: false
+
+  /stream-json/1.7.4:
+    resolution: {integrity: sha512-ja2dde1v7dOlx5/vmavn8kLrxvNfs7r2oNc5DYmNJzayDDdudyCSuTB1gFjH4XBVTIwxiMxL4i059HX+ZiouXg==}
+    dependencies:
+      stream-chain: 2.2.5
     dev: false
