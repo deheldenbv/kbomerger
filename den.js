@@ -24,6 +24,18 @@ const pipeline = chain([
 			KBOcleaned: cleanedNumber,
 			Name: `${value.Denomination}`,
 			Language: `${value.Language}`,
+			Box: '',
+			CountryFR: '',
+			CountryNL: '',
+			DateStrikingOff: '',
+			ExtraAddressInfo: '',
+			HouseNumber: '',
+			MunicipalityFR: '',
+			MunicipalityNL: '',
+			StreetFR: '',
+			StreetNL: '',
+			TypeOfAddress: '',
+			Zipcode: '',
 		};
 		return toAdd;
 		// return value && value.department === 'accounting' ? data : null;
