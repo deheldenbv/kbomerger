@@ -1,0 +1,13 @@
+lockfileVersion: 5.3
+
+specifiers:
+  json-to-jsonl: ^1.1.0
+
+dependencies:
+  json-to-jsonl: 1.1.0
+
+packages:
+
+  /json-to-jsonl/1.1.0:
+    resolution: {integrity: sha512-xq56jsEIqbqk6kd+QhhlV9g8BMTEbpm0Iwcj/+mmDgaMyzAyivEjDZvEigpnLad+xGjS/oodXIXm3iiIiqT5BQ==}
+    dev: false

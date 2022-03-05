@@ -1,0 +1,62 @@
+[
+  {
+    "Box": "2",
+    "CountryFR": "",
+    "CountryNL": "",
+    "DateStrikingOff": "",
+    "EntityNumber": "0464.667.018",
+    "ExtraAddressInfo": "",
+    "HouseNumber": "234",
+    "MunicipalityFR": "Gent",
+    "MunicipalityNL": "Gent",
+    "StreetFR": "Kortrijksepoortstraat",
+    "StreetNL": "Kortrijksepoortstraat",
+    "TypeOfAddress": "REGO",
+    "Zipcode": "9000"
+  },
+  {
+    "Box": "",
+    "CountryFR": "",
+    "CountryNL": "",
+    "DateStrikingOff": "",
+    "EntityNumber": "0477.654.229",
+    "ExtraAddressInfo": "",
+    "HouseNumber": "326",
+    "MunicipalityFR": "Merelbeke",
+    "MunicipalityNL": "Merelbeke",
+    "StreetFR": "Hundelgemsesteenweg",
+    "StreetNL": "Hundelgemsesteenweg",
+    "TypeOfAddress": "REGO",
+    "Zipcode": "9820"
+  },
+  {
+    "Box": "",
+    "CountryFR": "",
+    "CountryNL": "",
+    "DateStrikingOff": "",
+    "EntityNumber": "0737.350.745",
+    "ExtraAddressInfo": "",
+    "HouseNumber": "139",
+    "MunicipalityFR": "Nazareth",
+    "MunicipalityNL": "Nazareth",
+    "StreetFR": "Steenweg Deinze",
+    "StreetNL": "Steenweg Deinze",
+    "TypeOfAddress": "REGO",
+    "Zipcode": "9810"
+  },
+  {
+    "Box": "2",
+    "CountryFR": "",
+    "CountryNL": "",
+    "DateStrikingOff": "",
+    "EntityNumber": "0464.667.018",
+    "ExtraAddressInfo": "",
+    "HouseNumber": "234",
+    "MunicipalityFR": "Gent",
+    "MunicipalityNL": "Gent",
+    "StreetFR": "Edward Pynaertkaai 111",
+    "StreetNL": "Edward Pynaertkaai 111",
+    "TypeOfAddress": "REGO",
+    "Zipcode": "9000"
+  }
+]
