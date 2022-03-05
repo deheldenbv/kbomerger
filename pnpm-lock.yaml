@@ -1,13 +1,55 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fast-csv/parse': ^4.3.6
   json-to-jsonl: ^1.1.0
 
 dependencies:
+  '@fast-csv/parse': 4.3.6
   json-to-jsonl: 1.1.0
 
 packages:
 
+  /@fast-csv/parse/4.3.6:
+    resolution: {integrity: sha512-uRsLYksqpbDmWaSmzvJcuApSEe38+6NQZBUsuAyMZKqHxH0g1wcJgsKUvN3WC8tewaqFjBMMGrkHmC+T7k8LvA==}
+    dependencies:
+      '@types/node': 14.18.12
+      lodash.escaperegexp: 4.1.2
+      lodash.groupby: 4.6.0
+      lodash.isfunction: 3.0.9
+      lodash.isnil: 4.0.0
+      lodash.isundefined: 3.0.1
+      lodash.uniq: 4.5.0
+    dev: false
+
+  /@types/node/14.18.12:
+    resolution: {integrity: sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==}
+    dev: false
+
   /json-to-jsonl/1.1.0:
     resolution: {integrity: sha512-xq56jsEIqbqk6kd+QhhlV9g8BMTEbpm0Iwcj/+mmDgaMyzAyivEjDZvEigpnLad+xGjS/oodXIXm3iiIiqT5BQ==}
+    dev: false
+
+  /lodash.escaperegexp/4.1.2:
+    resolution: {integrity: sha1-ZHYsSGGAglGKw99Mz11YhtriA0c=}
+    dev: false
+
+  /lodash.groupby/4.6.0:
+    resolution: {integrity: sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=}
+    dev: false
+
+  /lodash.isfunction/3.0.9:
+    resolution: {integrity: sha512-AirXNj15uRIMMPihnkInB4i3NHeb4iBtNg9WRWuK2o31S+ePwwNmDPaTL3o7dTJ+VXNZim7rFs4rxN4YU1oUJw==}
+    dev: false
+
+  /lodash.isnil/4.0.0:
+    resolution: {integrity: sha1-SeKM1VkBNFjIFMVHnTxmOiG/qmw=}
+    dev: false
+
+  /lodash.isundefined/3.0.1:
+    resolution: {integrity: sha1-I+89lTVWUgOmbO/VuDD4SJEa+0g=}
+    dev: false
+
+  /lodash.uniq/4.5.0:
+    resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
     dev: false

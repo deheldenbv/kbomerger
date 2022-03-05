@@ -1,12 +1,18 @@
 const fs = require('fs');
+console.log('start');
 
-let denominations_raw = fs.readFileSync('denomination.json');
-let denominations = JSON.parse(denominations_raw);
+var saver = fs.createWriteStream('output.jsonl', {
+	flags: 'a', // 'a' means appending (old data will be preserved)
+});
+var writeLine = (line) => saver.write(`\n${line}`);
 
 let address_raw = fs.readFileSync('address.json');
 let address = JSON.parse(address_raw);
+console.log('got address');
 
-let arrayToOuput = [];
+let denominations_raw = fs.readFileSync('denomination.json');
+let denominations = JSON.parse(denominations_raw);
+console.log('got denom');
 
 for (const c of denominations) {
 	console.log(c);
@@ -42,9 +48,8 @@ for (const c of denominations) {
 		Language: `${c.Language}`,
 		Address: addressesToAdd,
 	};
+	let data = JSON.stringify(toAdd);
 
-	arrayToOuput.push(toAdd);
+	writeLine(data);
 }
-
-let data = JSON.stringify(arrayToOuput);
-fs.writeFileSync('output.json', data);
+saver.end();
