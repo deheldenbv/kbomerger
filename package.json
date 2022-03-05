@@ -12,6 +12,8 @@
   "dependencies": {
     "@fast-csv/parse": "^4.3.6",
     "json-to-jsonl": "^1.1.0",
-    "stream-csv-as-json": "^1.0.4"
+    "stream-chain": "^2.2.5",
+    "stream-csv-as-json": "^1.0.4",
+    "stream-json": "^1.7.4"
   }
 }
