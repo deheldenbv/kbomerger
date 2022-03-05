@@ -9,6 +9,7 @@ let address = JSON.parse(address_raw);
 let arrayToOuput = [];
 
 for (const c of denominations) {
+	console.log(c);
 	let cleanedNumber = `${c.EntityNumber.replace(/\D/g, '')}`;
 	let add = address.filter((x) => x.EntityNumber === c.EntityNumber);
 	let addressesToAdd = [];
@@ -45,6 +46,5 @@ for (const c of denominations) {
 	arrayToOuput.push(toAdd);
 }
 
-console.log(arrayToOuput);
 let data = JSON.stringify(arrayToOuput);
 fs.writeFileSync('output.json', data);
