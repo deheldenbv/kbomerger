@@ -24,7 +24,6 @@ const pipeline = chain([
 			KBOcleaned: cleanedNumber,
 			Name: `${value.Denomination}`,
 			Language: `${value.Language}`,
-			Address: [],
 		};
 		return toAdd;
 		// return value && value.department === 'accounting' ? data : null;
