@@ -11,7 +11,7 @@ var saver = fs.createWriteStream('output.json', {
 // var writeLine = (line) => saver.write(`\n${line}`);
 saver.write('[');
 const pipeline = chain([
-	fs.createReadStream('denomination.csv'),
+	fs.createReadStream('address.csv'),
 	parser(),
 	asObjects(),
 	streamValues(),
